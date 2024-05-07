@@ -75,21 +75,21 @@
     }
 </style>
 <div class="npc">
-    <img onclick="tres()" src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Treasurchest.svg">
+    <img onclick="npc()" src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Treasurchest.svg">
 </div>
 
 <script>
-    function tres() {
-        let tres = prompt("You see this treasure chest just lying there, what do you do? (open / leave)")
-        if (tres === "leave") {
+    function npc() {
+        let npc = prompt("You see this treasure chest just lying there, what do you do? (open / leave)")
+        if (npc === "leave") {
             alert("You turn around and get slain by a theif. (Bad ending) ")
         }
-        else if (tres === 98876) {
+        else if (npc === 98876) {
           alert("Wait, you werent supposed to see this! You will be sent to jail in game for inspecting/skimming the code!")
           window.location.href = "cheated.html
 
         }
-        else if (tres === "open") {
+        else if (npc === "open") {
             alert("You open the chest and find hundreds of gold ingots! You leave in full hands! (Good Ending)")
             window.location.href = "stick2.html"
         }
