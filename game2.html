@@ -76,11 +76,21 @@
     }
 </style>
 <div class="npc">
-    <img onclick="npc()" src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Treasurchest.svg">
+    <img onclick="npc()" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Treasure_chest.png/640px-Treasure_chest.png">
 </div>
 
 <script>
-function npc() { let npc = prompt("You see this treasure chest just lying there, what do you do? (open / leave)") if (npc === "leave") { alert("You turn around and get slain by a theif. (Bad ending) ") } else if (npc === 98876) { alert("Wait, you werent supposed to see this! You will be sent to jail in game for inspecting/skimming the code!") window.location.href = "cheated.html } else if (npc === "open") { alert("You open the chest and find hundreds of gold ingots! You leave in full hands! (Good Ending)") window.location.href = "stick2.html" }
+    function npc() {
+        let npc = prompt("You see this treasure chest here, but the stickman is nowhere to be found. What will you do? (open/leave")
+        if (npc === "leave") {
+            alert("You get stabbed by the stickman when you turned around.")
+            window.location.href = "end1.html"
+        }
+        else if (npc === "open") {
+            alert("You open the chest and see heaps of gold and diamonds!")
+            window.location.href = "end2.html"
+        }
+
     }
 </script>
 
@@ -88,3 +98,4 @@ function npc() { let npc = prompt("You see this treasure chest just lying there,
 
 </body>
 </html>
+
