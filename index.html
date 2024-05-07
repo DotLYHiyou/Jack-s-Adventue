@@ -1,5 +1,45 @@
-<div style="background-image: url('https://images.squarespace-cdn.com/content/v1/551a19f8e4b0e8322a93850a/1566776697516-A69UYWW58V0871IQXG9C/Title_Image.png')">
-    <h1 class="text-4xl md:text-6xl lg:text-8xl mb-4">Welcome to Jack's Adventure!</h1>
-    <p class="text-lg md:text-xl lg:text-2xl mb-8">WHEN YOU GO IN CLICK ON THE STICKMAN!</p>
-<a class="btn" href="game.html">Play</a>
-</div>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Jack's Adventure</title>
+  <style>
+    body {
+      background-image: url('https://images.squarespace-cdn.com/content/v1/551a19f8e4b0e8322a93850a/1566776697516-A69UYWW58V0871IQXG9C/Title_Image.png');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 1.2em;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Welcome to Jack's Adventure</h1>
+
+  <button onclick="window.location.href = 'game.html';">Start Game</button>
+<p>Click the stickman when you start!</p>
+  <script src="script.js"></script>
+</body>
+
+</html>
