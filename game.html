@@ -81,11 +81,15 @@
 
 <script>
     function npc() {
-        let npc = prompt("Greetings, adventurer! What can tell you? (Bye! / Treasure?)")
-        if (npc === "Bye!") {
+        let npc = prompt("Greetings, adventurer! What can tell you? (bye / treasure)")
+        if (npc === "bye") {
             alert("Goodbye! I hope our paths cross again!")
         }
-        else if (npc === "Treasure?") {
+        if (npc === "1985") {
+          alert("..., So you know huh?")
+          window.location.href = "dont/game3.html"
+        }
+        else if (npc === "treasure") {
             alert("Hmm, So you are looking for treasure huh? Follow me!")
             window.location.href = "game2.html"
         }
