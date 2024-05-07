@@ -1,45 +1,41 @@
-<!DOCTYPE html>
-<html>
+<style>
+  body {
+    background-color:#141414;
+    font-family:sans;
+  }
+  .ui {
+    background-color:black;
+    border-radius:20px;
+  }
+  .btn{
+    background-color:green;
+    color:white;
+    border-radius:10px;
+  }
+  h1{
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Jack's Adventure</title>
-  <style>
-    body {
-      background-image: url('https://images.squarespace-cdn.com/content/v1/551a19f8e4b0e8322a93850a/1566776697516-A69UYWW58V0871IQXG9C/Title_Image.png');
-      background-size: cover;
-      background-position: center;
-      color: white;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
+  }
+</style>
+<div class="container">
+  <div class="ui">
+    <div class="container">
+      <a class="btn" href="game.html">Play</a>
 
-    h1 {
-      margin-bottom: 20px;
-    }
+    </div>
+  </div>
+</div>
+<div class="ui">
 
-    button {
-      padding: 10px 20px;
-      font-size: 1.2em;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-  </style>
-</head>
+</div>
 
-<body>
-  <h1>Welcome to Jack's Adventure</h1>
 
-  <button onclick="window.location.href = 'game.html';">Start Game</button>
-<p>Click the stickman when you start!</p>
-  <script src="script.js"></script>
-</body>
+<style>
+  .container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+color: white;
+}
 
-</html>
+</style>
