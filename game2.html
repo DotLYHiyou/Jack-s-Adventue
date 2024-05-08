@@ -85,13 +85,13 @@
 
 <script>
     function npc() {
-        let npc = prompt("You see this treasure chest here, but the stickman is nowhere to be found. What will you do? (open/leave")
+        let npc = prompt("You see this treasure chest here, but the person is nowhere to be found. What will you do? (open/leave)")
         if (npc === "leave") {
-            alert("You get stabbed by the stickman when you turned around.")
+            alert("You get stabbed by the person when you turned around.")
             window.location.href = "end1.html"
         }
         else if (npc === "open") {
-            alert("You open the chest and see heaps of gold and diamonds!")
+            alert("You open the chest and see heaps of gold and diamonds! You leave in empty hands!")
             window.location.href = "end2.html"
         }
 
