@@ -1,5 +1,5 @@
 # Jack's Adventure
-A game made for Github Merge 2024. There are three endings to find, including one for cheating!
+A game made for Github Merge 2024. There are three endings.
 
 # How to play!
 1. Go to the link, (https://wehgu9gebrguw.vercel.app/).
